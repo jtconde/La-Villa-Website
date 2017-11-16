@@ -147,25 +147,23 @@ a:active {
 /*--
     nav Start
 --*/
-#navigation {
-  background-color: transparent;
-}
+
 
 nav {
   z-index: 99999;
   width: 100%;
 }
 nav .block {
-  margin-top: -110px;
+  margin-top: -90px;
   background: #fff;
-  padding: 25px 60px;
-  background: rgba(255, 255, 255, 0.89);
+  padding: 25px 40px;
+
 }
 nav .block .navbar-default {
   border: none;
   border-radius: 0px;
   margin-bottom: 0;
-  background: none;
+  background: white;
 }
 nav .block .navbar-default .navbar-brand {
   padding-left: 0px;
@@ -181,7 +179,6 @@ nav .block .navbar-default .navbar-nav > li > a {
   text-transform: uppercase;
 }
 nav .block .navbar-default .navbar-nav > li > a:before {
-  background-color: transparent;
   content: "";
   position: absolute;
   left: 0;
@@ -204,7 +201,6 @@ nav .block .navbar-default .navbar-nav > li.current > a {
   margin: 0px 15px;
 }
 nav .block .navbar-default .navbar-nav > li.current > a:before {
-  background-color: transparent;
   content: "";
   position: absolute;
   left: 0;
@@ -295,7 +291,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #blog {
   padding-top: 75px;
   padding-bottom: 100px;
-  background: url("../images/blog/blog-bg.jpg");
+  background: url("../images/blog/pizza-2938753_1280.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-attachment: fixed;
@@ -486,8 +482,8 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   padding: 28px 105px;
   border-radius: 0px;
   background: none;
-  color: darkred;
-  border: 1px solid darkred;
+  color: white;
+  border: 1px solid white;
   font-size: 15px;
   text-transform: uppercase;
   font-weight: 600;
@@ -496,7 +492,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   transition: .3s all;
 }
 #price .block .pricing-list .btn:hover {
-  background: darkred;
+  background: white;
   color: #fff;
 }
 /*--
@@ -505,7 +501,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 #subscribe {
   padding: 100px 0px;
   text-align: center;
-  background: url("../images/subscribe-bg.jpg");
+  background: url("../images/pasta-1264056_1280.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
@@ -550,7 +546,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
   height: 65px;
   border: none;
   border-radius: 0px;
-  background: #7EC3BB;
+  background: darkred;
   color: #fff;
   font-weight: 600;
   font-size: 16px;
@@ -568,6 +564,7 @@ nav .block .navbar-default .navbar-nav > .active > a:hover:before {
 --*/
 #contact-us {
   padding: 70px 0px;
+  background-color: black;
 }
 #contact-us .block .title {
   padding: 20px 0;
